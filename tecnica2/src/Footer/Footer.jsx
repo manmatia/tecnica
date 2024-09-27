@@ -18,7 +18,7 @@ function Footer() {
             href="https://www.linkedin.com/in/matias-graneros-86605388/"
             target="_blank"
             rel="noopener noreferrer"
-            className="me-3"
+            className="btn btn-outline-secondary btn-sm me-3"
           >
             <FaLinkedin size={24} color="#0077B5" /> {/* Color azul de LinkedIn */}
           </a>
@@ -28,17 +28,17 @@ function Footer() {
             href="mailto:manmatia@gmail.com?subject=Prueba%20tecnica&body=Matias%20queremos%20hablar%20con%20vos"
             className="btn btn-outline-secondary btn-sm me-3"
           >
-            <FaEnvelope size={20}/> 
+            <FaEnvelope size={20} color="#0077B5"/> 
           </a>
 
           {/* Botón para descargar el CV */}
           <a
             href="/assets/CV.pdf"
-            className="btn btn-primary d-flex align-items-center"
-            style={{ background: "gray", border: "gray" }}
+             className="btn btn-outline-secondary btn-sm me-3"
+            
             download
           >
-            <AiOutlineDownload className="me-2"  /> {/* Icono de descarga */}
+            <AiOutlineDownload  color="#0077B5" size={20}  /> {/* Icono de descarga */}
             CV
           </a>
         </div>
