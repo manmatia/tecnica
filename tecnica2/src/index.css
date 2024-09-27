@@ -1,0 +1,45 @@
+html, body {
+  height: 100%;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+#root {
+  flex: 1;
+}
+
+.footer {
+  background-color: #f8f9fa; /* Color opcional */
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  height: 60px; /* Altura del footer */
+}
+
+.nav-link {
+  position: relative;
+  display: inline-block;
+  color: #000;
+  text-decoration: none;
+}
+
+.nav-link::after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 1px;
+  background-color: #000; 
+  left: 0;
+  bottom: -2px;
+  transform: scaleX(0);
+  transform-origin: right;
+  transition: transform 0.3s ease;
+}
+
+.nav-link:hover::after {
+  transform: scaleX(1);
+  transform-origin: left;
+}

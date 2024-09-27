@@ -1,0 +1,17 @@
+.custom-button {
+    background-color: #f8f8f8 !important;
+    color: #0A2C43 !important;
+    padding: 3px 20px !important;
+    border-radius: 50px !important;
+    cursor: pointer !important;
+    transition: background-color 0.3s ease, color 0.3s ease !important;
+}
+
+.custom-button:hover {
+    background-color: #0A2C43 !important;
+    color: #ffffff !important;
+}
+
+.nav-link.text {
+    color: #0A2C43 !important;
+}
