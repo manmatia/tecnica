@@ -7,8 +7,8 @@ function Footer() {
       <div className="container d-flex flex-column align-items-center">
         <div className="d-flex align-items-center mb-2">
                   {/* Texto de derechos reservados */}
-        <span className="text-muted text-center" style={{ fontSize: '14px', marginTop: '10px' }}>
-          © 2024 Matias Graneros. Todos los derechos reservados. TECNICA  
+        <span className="text-muted text-center" style={{ fontSize: '14px', marginTop: '10px', marginRight:"20px" }}>
+          © 2024 Matias Graneros. TECNICA  
         </span>
           {/* Link de LinkedIn */}
           <a
