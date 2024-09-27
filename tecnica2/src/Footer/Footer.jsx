@@ -35,7 +35,7 @@ function Footer() {
           <a
             href="/assets/CV.pdf"
              className="btn btn-outline-secondary btn-sm me-3"
-            
+               target="_blank"
             download
           >
             <AiOutlineDownload  color="#0077B5" size={20}  /> {/* Icono de descarga */}
