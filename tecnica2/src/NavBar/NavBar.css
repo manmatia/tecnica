@@ -4,6 +4,7 @@
     padding: 3px 20px !important;
     border-radius: 50px !important;
     cursor: pointer !important;
+    font-weight: bold;
     transition: background-color 0.3s ease, color 0.3s ease !important;
 }
 
@@ -14,4 +15,5 @@
 
 .nav-link.text {
     color: #0A2C43 !important;
+    font-weight: bold;
 }

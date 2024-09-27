@@ -20,6 +20,7 @@
     background-color: white;
     padding: 20px;
     width: 80%;
+    font-weight: bold;
     max-width: 400px;
 }
 
@@ -39,6 +40,7 @@
     padding: 10px 20px !important;
     border-radius: 10px !important;
     cursor: pointer !important;
+    font-weight: bold;
     transition: background-color 0.3s ease, color 0.3s ease !important;
 }
 
@@ -54,6 +56,7 @@
     border-radius: 10px !important;
     cursor: pointer !important;
     transition: background-color 0.3s ease, color 0.3s ease !important;
+    font-weight: bold;
 }
 
 .custom-button3:hover {
@@ -67,6 +70,7 @@
     padding: 10px 20px !important;
     border-radius: 50px !important;
     cursor: pointer !important;
+    font-weight: bold;
     transition: background-color 0.3s ease, color 0.3s ease !important;
 }
 
@@ -78,5 +82,10 @@
 .span2 {
     text-decoration: underline;
     text-decoration-color:#0B96FB; 
+    font-weight: bold;
 }
 
+::placeholder{
+    color :#243B4D!important;
+    font-weight: bold;
+}
