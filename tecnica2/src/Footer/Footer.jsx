@@ -20,7 +20,7 @@ function Footer() {
             rel="noopener noreferrer"
             className="btn btn-outline-secondary btn-sm me-3"
           >
-            <FaLinkedin size={24} color="#0077B5" /> {/* Color azul de LinkedIn */}
+            <FaLinkedin size={20} color="#0077B5" /> {/* Color azul de LinkedIn */}
           </a>
 
           {/* Link de correo electrónico */}
@@ -39,7 +39,7 @@ function Footer() {
             download
           >
             <AiOutlineDownload  color="#0077B5" size={20}  /> {/* Icono de descarga */}
-            CV
+            
           </a>
         </div>
       </div>
