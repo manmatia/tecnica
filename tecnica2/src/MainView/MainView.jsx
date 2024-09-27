@@ -18,7 +18,7 @@ function MainView() {
                         </div>
                         <hr style={{ borderColor: '#00bfff', borderWidth: '1px', marginLeft: "15%", marginRight:"15%", marginTop:"18%"}} />
                         <div className="card-body">
-                            <h4 className="card-title mt-2" style={{ textAlign: 'left', color: 'white', marginLeft: "15%", }}>
+                            <h4 className="card-title mt-5" style={{ textAlign: 'left', color: 'white', marginLeft: "15%", marginBottom:"3%" }}>
                                 Elevate your business with Businezz X, a<br />
                                  professional Webflow template.
                             </h4>
