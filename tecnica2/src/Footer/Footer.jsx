@@ -5,12 +5,12 @@ import { AiOutlineDownload } from 'react-icons/ai'; // Importa el ícono de desc
 function Footer() {
 
   return (
-    <footer className="footer bg-light py-3">
+    <footer className="footer bg-light py-3 " >
       <div className="container d-flex flex-column align-items-center">
-        <div className="d-flex align-items-center mb-2">
+        <div className="d-flex align-items-center">
           {/* Texto de derechos reservados */}
           <span className="text-muted text-center" style={{ fontSize: '14px', marginTop: '10px', marginRight: "20px" }}>
-            © 2024 Matias Graneros. TECNICA  
+            © 2024 Matias Graneros.
           </span>
 
           {/* Link de LinkedIn */}
